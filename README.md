@@ -1,1 +1,1 @@
-# cleaning-comp-Java-project
+# cleaning-company-Java-project
