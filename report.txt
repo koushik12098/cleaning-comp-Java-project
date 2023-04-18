@@ -1,0 +1,14 @@
+List of cleaners:
+Cleaner{name='manish', address='123 patna', phone='5522-73904', email='manish@email.com'}
+Cleaner{name='John wick', address='322 Oak street', phone='3335-3322', email='wick@email.com'}
+
+List of jobs:
+Job{location='293 apple street', type='laundry cleaning', date=2023-04-15T10:00}
+Job{location='455 Maple tree', type='room cleaning', date=2023-04-16T14:00}
+
+List of job assignments:
+JobAssignment{cleaner=Cleaner{name='manish', address='123 patna', phone='5522-73904', email='manish@email.com'}, job=Job{location='293 apple street', type='laundry cleaning', date=2023-04-15T10:00}, dateAssigned=2023-04-18T13:30:04.642579300}
+JobAssignment{cleaner=Cleaner{name='John wick', address='322 Oak street', phone='3335-3322', email='wick@email.com'}, job=Job{location='455 Maple tree', type='room cleaning', date=2023-04-16T14:00}, dateAssigned=2023-04-18T13:30:04.642579300}
+
+List of jobs assigned to John:
+Job{location='293 apple street', type='laundry cleaning', date=2023-04-15T10:00}
