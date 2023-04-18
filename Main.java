@@ -3,11 +3,11 @@ import java.time.LocalDateTime;
 public class Main {
 public static void main(String[] args) {
 // create cleaners
-Cleaner john = new Cleaner("John Smith", "123 Main St", "555-1234", "john@email.com");
-Cleaner jane = new Cleaner("Jane Doe", "456 Oak Ave", "555-5678", "jane@email.com");
+Cleaner john = new Cleaner("manish", "123 patna", "5522-73904", "manish@email.com");
+Cleaner jane = new Cleaner("John wick", "322 Oak street", "3335-3322", "wick@email.com");
     // create jobs
-    Job office = new Job("123 Elm St", "office cleaning", LocalDateTime.of(2023, 4, 15, 10, 0));
-    Job home = new Job("789 Maple Ave", "home cleaning", LocalDateTime.of(2023, 4, 16, 14, 0));
+    Job office = new Job("293 apple street", "laundry cleaning", LocalDateTime.of(2023, 4, 15, 10, 0));
+    Job home = new Job("455 Maple tree", "room cleaning", LocalDateTime.of(2023, 4, 16, 14, 0));
 
     // create lists
     CleanerList cleanerList = new CleanerList();
